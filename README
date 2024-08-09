@@ -1,0 +1,46 @@
+README
+
+                           MacPHREEQC
+
+                  The macOS version of PHREEQC,
+        a program developed by the U.S. Geological Survey
+    for speciation, batch-reaction, one-dimensional transport,
+              and inverse geochemical calculations
+
+This file describes MacPHREEQC, software developed to run the batch
+version of PHREEQC on macOS systems using both Apple Silicon and Intel
+processors. The current version is a universal macOS application with
+the compiled Linux code (source code released by the USGS) as well as
+the database files contained within the MacPHREEQC application. The
+software is licensed as open-source under the MIT License.
+
+MacPHREEQC is released as a disk image or .dmg file. When this file is
+opened in the Finder on your system, a window reveals both the
+MacPHREEQC application and a folder named phreeqc. There is also a link
+to this README file. MacPHREEQC should be moved to your Applications
+Folder; the phreeqc Folder should be placed into your <user>/Documents
+Folder. The phreeqc folder contains a doc Folder with all of the
+documentation as distributed by USGS, an examples Folder with the input
+files that are distributed by USGS, a test Folder containing scripts for
+running all of the examples (used to test proper operation), and the
+phreeqc.log file. The phreeqc.log file will contain any errors that
+occur during a model run. Currently, the phreeqc folder must reside in
+the Documents Folder for proper operation of MacPHREEQC. Also, TextEdit
+(or another default text editor) is required to open the output files
+created by a MacPHREEQC model run, and Terminal is required to operate
+the test scripts. If the phreeqc folder is moved or missing a new
+(empty) phreeqc folder will be created in Documents.
+
+MacPHREEQC operates from a single window, containing a pop-up menu for
+choosing a database, list boxes to choose input and output files,
+buttons for choosing folders to display in the list boxes, a button to
+create a new output file, fields displaying chosen files and folders,
+and a button to run the model. Selecting the Cancel button or closing
+the window quits MacPHREEQC. MacPHREEQC also quits upon running a model.
+An item in the Help menu provides a detailed explanation of the items in
+the MacPHREEQC window.
+
+The current version of MacPHREEQC is 2.0 (3.8.0), the numbers in the
+parentheses show the version of the Linux PHREEQC code used to compile
+the scripts for MacPHREEQC. MacPHREEQC requires macOS 11.3 (Big Sur) or
+later.
