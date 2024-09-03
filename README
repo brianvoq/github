@@ -40,7 +40,7 @@ the window quits MacPHREEQC. MacPHREEQC also quits upon running a model.
 An item in the Help menu provides a detailed explanation of the items in
 the MacPHREEQC window.
 
-The current version of MacPHREEQC is 2.0 (3.8.0), the numbers in the
+The current version of MacPHREEQC is 2.0 (3.8.2), the numbers in the
 parentheses show the version of the Linux PHREEQC code used to compile
 the scripts for MacPHREEQC. MacPHREEQC requires macOS 11.3 (Big Sur) or
 later.
